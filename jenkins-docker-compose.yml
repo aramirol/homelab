@@ -1,0 +1,10 @@
+version: '3'
+services:
+  jenkins:
+    container_name: jenkins-casare-int
+    image: jenkins/jenkins:latest
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - /srv/jenkins/jenkins_home:/var/jenkins_home
