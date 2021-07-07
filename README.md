@@ -3,9 +3,6 @@
 
 Este repositorio git despliega un Gitlab y un Jenkins sobre Docker como docker-compose.
 
-<img src="imagenes/gitlab-ci-vs-jenkins.png" width="500">
-
-
  1. [Prerequisitos](#prerequisitos)
  2. [Despliegue](#despliegue)
  3. [Parada](#parada)
