@@ -1,5 +1,5 @@
 
-# HomeLab
+# HomeLab -> GitLab + Jenkins
 
 Este repositorio git despliega un Gitlab y un Jenkins sobre Docker como docker-compose.
 

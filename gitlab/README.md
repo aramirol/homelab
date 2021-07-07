@@ -1,5 +1,5 @@
 
-# HomeLab
+# HomeLab -> GitLab
 
 Este repositorio git despliega un Gitlab sobre Docker como docker-compose.
 
