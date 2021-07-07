@@ -8,13 +8,13 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - /srv/jenkins/jenkins_home:/var/jenkins_home
+      - '/srv/jenkins/jenkins_home:/var/jenkins_home'
 
   gitlab:
     image: 'gitlab/gitlab-ee:latest'
     container_name: 'gitlab-casare-int'
-    restart: always
     hostname: 'gitlab.casare.int'
+    restart: always
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         external_url 'https://gitlab.casare.int'
