@@ -2,6 +2,8 @@
 
 Este repositorio git despliega un Gitlab y un Jenkins sobre Docker como docker-compose.
 
+![](imagenes/gitlab-ci-vs-jenkins.png)
+
 ## Prerequisitos
 
 Ambas aplicaciones utilizan volúmenes externos para guardar sus configuraciones y datos. En el fichero ***docker-compose.yml*** se encuentran definidos estos volúmenes. Estos volúmenes crear el directorio automáticamente, sin embargo, en el caso de Jenkins es necesario que se creen previamente y se les asigne el propietario al usuario *"1000"*. Esto es debido a que Jenkins utiliza ese usuario para escribir.
@@ -23,7 +25,4 @@ Para parar y borrar los contenedores creados, basta con ejecutar el siguiente co
 
     $ docker-compose down
 
-## Ejemplo
-
-![](images/ejemplo-docker-compose.png)
 
