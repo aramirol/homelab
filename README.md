@@ -25,5 +25,5 @@ Para parar y borrar los contenedores creados, basta con ejecutar el siguiente co
 
 ## Ejemplo
 
-![](images/ejemplo-docker-compose.png)
+![](imagenes/ejemplo-docker-compose.png)
 
