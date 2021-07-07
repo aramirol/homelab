@@ -25,4 +25,3 @@ Para parar y borrar los contenedores creados, basta con ejecutar el siguiente co
 
     $ docker-compose down
 
-
