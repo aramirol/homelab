@@ -1,3 +1,9 @@
+
+ [1. Prerequisitos](#prerequisitos)
+ [2. Despliegue](#Despliegue)
+ [3. Parada](#Parada)
+ [4. Ejemplo](#Ejemplo)
+
 # HomeLab
 
 Este repositorio git despliega un Gitlab y un Jenkins sobre Docker como docker-compose.
