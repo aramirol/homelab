@@ -2,7 +2,7 @@
 
 Este repositorio git despliega un Gitlab y un Jenkins sobre Docker como docker-compose.
 
-![](imagenes/gitlab-ci-vs-jenkins.png)
+<img src="imagenes/gitlab-ci-vs-jenkins.png" width="500">
 
 ## Prerequisitos
 
@@ -25,3 +25,6 @@ Para parar y borrar los contenedores creados, basta con ejecutar el siguiente co
 
     $ docker-compose down
 
+## Ejemplo
+
+<img src="imagenes/ejemplo-docker-compose.png" width="300">
