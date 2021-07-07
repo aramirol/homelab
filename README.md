@@ -1,8 +1,8 @@
 
  [1. Prerequisitos](#prerequisitos)
- [2. Despliegue](#Despliegue)
- [3. Parada](#Parada)
- [4. Ejemplo](#Ejemplo)
+ [2. Despliegue](#despliegue)
+ [3. Parada](#parada)
+ [4. Ejemplo](#ejemplo)
 
 # HomeLab
 
