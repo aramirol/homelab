@@ -2,6 +2,7 @@
 # HomeLab
 
 ![Build](.badges/platform-docker-blue.svg)
+![Build](.badges/platform-vagrant-blue.svg)
 ![Build](.badges/license-aramirol-red.svg)
 ![Build](.badges/version-v1.0-green.svg)
 
