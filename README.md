@@ -10,6 +10,7 @@ En este respositorio se encuentran distintos laboratorios para ejecutar sobre Do
  1. [gitlab+jenkins](gitlab+jenkins)
  2. [gitlab](gitlab)
  3. [jenkins](jenkins)
+ 4. [vagrant](vagrant)
 
 <img src="imagenes/homelab_logo.png" />
 
