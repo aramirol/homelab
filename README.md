@@ -8,11 +8,14 @@
 
 En este respositorio se encuentran distintos laboratorios para ejecutar sobre Docker o Vagrant.
 
+## Docker:
  1. [gitlab+jenkins](gitlab+jenkins)
  2. [gitlab](gitlab)
  3. [jenkins](jenkins)
- 4. [checkmk](checkmk)
- 5. [graylog](graylog)
+
+## Vagrant:
+ 1. [checkmk](checkmk)
+ 2. [graylog](graylog)
 
 <img src="imagenes/homelab_logo.png" />
 
