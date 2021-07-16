@@ -2,8 +2,6 @@
 
 ![Build](.badges/platform-docker-blue.svg)
 ![Build](.badges/platform-vagrant-blue.svg)
-![Build](.badges/license-aramirol-red.svg)
-![Build](.badges/version-v1.0-green.svg)
 
 En este respositorio se encuentran distintos laboratorios para ejecutar sobre Docker o Vagrant.
 
@@ -15,7 +13,6 @@ En este respositorio se encuentran distintos laboratorios para ejecutar sobre Do
 ## Vagrant:
  1. [checkmk](checkmk)
  2. [graylog](graylog)
-
-<img src="imagenes/homelab_logo.png" />
+ 3. [minikube](minikube)
 
 Enjoy :)
