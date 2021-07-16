@@ -9,6 +9,7 @@ En este respositorio se encuentran distintos laboratorios para ejecutar sobre Do
  1. [gitlab+jenkins](gitlab+jenkins)
  2. [gitlab](gitlab)
  3. [jenkins](jenkins)
+ 4. [apache](apache)
 
 ## Vagrant:
  1. [checkmk](checkmk)
