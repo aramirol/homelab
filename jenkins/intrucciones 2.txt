@@ -1,8 +1,0 @@
-Jenkins
-
-
-El directorio jenkins y jenkins_home deben tener como usuario "1000"
-
-$ sudo chown 1000 $PATH/jenkins
-$ sudo chown 1000 $PATH/jenkins/jenkins_home
-
