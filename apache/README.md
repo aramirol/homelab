@@ -10,7 +10,5 @@ To try this repository, execute the following commands:
 
 > $ docker run -it -p 1234:80 webtest:v1
 
-```diff
-- Dockerfile use **aramirol/simple-website**.
-```
+Dockerfile use aramirol/simple-website :collision:
 
