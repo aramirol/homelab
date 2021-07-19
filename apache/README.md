@@ -2,7 +2,11 @@
 
 To try this repository, execute the following commands:
 
-> docker build website -t webtest:v1
+## Build docker image
 
-> docker run -it -p 1234:80 webtest:v1
+> $ docker build website -t webtest:v1
+
+## Run docker container
+
+> $ docker run -it -p 1234:80 webtest:v1
 
