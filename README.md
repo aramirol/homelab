@@ -1,7 +1,6 @@
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/aramirol/homelab">
-
 # HomeLab
 
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/aramirol/homelab?color=green">
 ![Build](.badges/platform-docker-blue.svg)
 ![Build](.badges/platform-vagrant-blue.svg)
 
