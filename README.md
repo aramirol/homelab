@@ -16,4 +16,4 @@ En este respositorio se encuentran distintos laboratorios para ejecutar sobre Do
  2. [graylog](graylog)
  3. [minikube](minikube)
 
-Enjoy :heavy_exclamation_mark:
+Enjoy :ballot_box_with_check:
