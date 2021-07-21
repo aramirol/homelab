@@ -1,3 +1,5 @@
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/aramirol/homelab">
+
 # HomeLab
 
 ![Build](.badges/platform-docker-blue.svg)
