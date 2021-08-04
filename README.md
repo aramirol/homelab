@@ -7,14 +7,15 @@
 En este respositorio se encuentran distintos laboratorios para ejecutar sobre Docker o Vagrant.
 
 ## Docker:
- 1. [gitlab+jenkins](gitlab+jenkins)
- 2. [gitlab](gitlab)
- 3. [jenkins](jenkins)
- 4. [apache](apache)
+ 1. [gitlab](gitlab)
+ 2. [jenkins](jenkins)
+ 3. [apache](apache)
 
 ## Vagrant:
  1. [checkmk](checkmk)
  2. [graylog](graylog)
  3. [minikube](minikube)
 
-Enjoy :ballot_box_with_check:
+Enjoy
+:ballot_box_with_check:
+
