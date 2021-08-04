@@ -35,4 +35,4 @@ Para parar y borrar los contenedores creados, basta con ejecutar el siguiente co
 
 ## Customize Jenkins
 
-Go to [https://github.com/aramirol/simple-website/tree/master/jenkins_customization][https://github.com/aramirol/simple-website/tree/master/jenkins_customization].
+Go to [https://github.com/aramirol/simple-website/tree/master/jenkins_customization](https://github.com/aramirol/simple-website/tree/master/jenkins_customization).
