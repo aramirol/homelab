@@ -1,0 +1,24 @@
+version: '3'
+services:
+  teamcity:
+    container_name: teamcity-casare-int
+    image: jetbrains/teamcity-server:latest
+    restart: always
+    ports:
+      - "8111:8111"
+    volumes:
+      - /data/teamcity/data:/data/teamcity_server/datadir
+      - /data/teamcity/logs:/opt/teamcity/logs
+
+version: '3'
+services:
+  teamcity:
+    container_name: teamcity-agent-casare-int
+    image: jetbrains/teamcity-minimal-agent:latest
+    restart: always
+    environment:
+      - SERVER_URL="http://teamcity.casare.int:8111"
+#    links:
+#      - teamcity-casare-int
+    volumes:
+      - /data/teamcity/agent:/teamcity_agent/conf
