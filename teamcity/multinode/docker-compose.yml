@@ -1,0 +1,67 @@
+version: '3.1'
+ 
+
+# Default ${TEAMCITY_VERSION} is defined in .env file
+
+# ./buildserver_pgdata - Posgres DB data
+# ./data - TeamCity data directory
+# ./teamcity-server-logs1 - logs of primary TeamCity server
+# ./teamcity-server-logs2 - logs of secondary TeamCity server (running-builds node)
+# ./teamcity-server-logs3 - logs of read-only TeamCity server (secondary node)
+# ./teamcity-agent-conf1 - conf directory for the build agent
+
+services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_PASSWORD: test
+      POSTGRES_USER: test
+      POSTGRES_DB: buildserver
+    volumes:
+      - ./buildserver_pgdata:/var/lib/postgresql/data
+
+  nginx:
+    image: nginx:1.19
+    ports:
+      - 8222:8222
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+
+  teamcity:
+    image: jetbrains/teamcity-server:${TEAMCITY_VERSION}
+    volumes:
+      - ./data:/data/teamcity_server/datadir
+      - ./teamcity-server-logs1:/opt/teamcity/logs
+    ports:
+      - 8111:8111
+
+  node1:
+    image: jetbrains/teamcity-server:${TEAMCITY_VERSION}
+    volumes:
+      - ./data:/data/teamcity_server/datadir
+      - ./node1_data:/data/teamcity_server/node_datadir
+      - ./teamcity-server-logs2:/opt/teamcity/logs
+    ports:
+      - 8112:8111
+    environment:
+      TEAMCITY_SERVER_OPTS: -Dteamcity.server.nodeId=node1 -Dteamcity.server.rootURL=http://teamcity:8111 -Dteamcity.data.path=/data/teamcity_server/datadir -Dteamcity.node.data.path=/data/teamcity_server/node_datadir
+    
+
+  teamcity-agent1:
+    image: jetbrains/teamcity-agent:${TEAMCITY_VERSION}
+    environment:
+      SERVER_URL: http://nginx:8222
+    volumes:
+      - ./teamcity-agent-conf1:/data/teamcity_agent/conf
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  teamcity-agent2:
+    image: jetbrains/teamcity-agent:${TEAMCITY_VERSION}
+    environment:
+      SERVER_URL: http://nginx:8222
+    volumes:
+      - ./teamcity-agent-conf2:/data/teamcity_agent/conf
+      - /var/run/docker.sock:/var/run/docker.sock
