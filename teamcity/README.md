@@ -25,6 +25,8 @@ To open server URL on Windows execute the following command in PowerShell:
 explorer "http://$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' teamcitywindows_server_1):8111"
 ```
 
+* To stop, use: `docker-compose down --rmi all` command
+
 ## Multi-node configuration with several servers
 
 See README.md in [multinode folder](./multinode/)
