@@ -12,6 +12,7 @@ version: '3.1'
 services:
   db:
     image: postgres:latest
+    platform: linux/x86_64
     restart: always
     environment:
       - POSTGRES_PASSWORD=teamcity_password
@@ -25,6 +26,7 @@ services:
 
   teamcity:
     image: jetbrains/teamcity-server:${TEAMCITY_VERSION}
+    platform: linux/x86_64
     ports:
       - "8112:8111"
     volumes:
@@ -35,6 +37,7 @@ services:
 
   teamcity-agent-1:
     image: jetbrains/teamcity-agent:${TEAMCITY_VERSION}-linux-sudo
+    platform: linux/x86_64
     privileged: true
     volumes:
       - ./agents/agent-1/conf:/data/teamcity_agent/conf
@@ -42,6 +45,7 @@ services:
       - DOCKER_IN_DOCKER=start
   teamcity-agent-2:
     image: jetbrains/teamcity-agent:${TEAMCITY_VERSION}-linux-sudo
+    platform: linux/x86_64
     privileged: true
     volumes:
       - ./agents/agent-2/conf:/data/teamcity_agent/conf
