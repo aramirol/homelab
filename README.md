@@ -1,6 +1,6 @@
 # HomeLab
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aramirol/homelab?color=white&logo=github)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/aramirol/homelab?color=white&logo=github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/aramirol/homelab?color=red&logo=git)
 ![](https://img.shields.io/badge/platform-docker-blue?logo=docker)
 ![](https://img.shields.io/badge/platform-vagrant-white?logo=vagrant)
