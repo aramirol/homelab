@@ -1,8 +1,9 @@
 # HomeLab
 
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/aramirol/homelab?color=green"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aramirol/homelab?color=red">
-![Build](https://img.shields.io/badge/platform-docker-blue)
-![Build](https://img.shields.io/badge/platform-vagrant-blue)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aramirol/homelab?color=white&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/aramirol/homelab?color=red&logo=git)
+![](https://img.shields.io/badge/platform-docker-blue?logo=docker)
+![](https://img.shields.io/badge/platform-vagrant-white?logo=vagrant)
 
 En este respositorio se encuentran distintos laboratorios para ejecutar sobre Docker o Vagrant.
 
