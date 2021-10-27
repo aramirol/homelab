@@ -5,12 +5,6 @@
 ![](https://img.shields.io/badge/platform-docker-blue?logo=docker)
 ![](https://img.shields.io/badge/platform-vagrant-white?logo=vagrant)
 
-<iframe src="https://lbesson.bitbucket.io/bbbtns/bitbucket-btn.html?user=lbesson&repo=lbesson.bitbucket.io&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-
-<iframe src="http://bb-btns.bitbucket.org/bitbucket-btn.html?user=aramirol&repo=test&type=watch" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
-
-<iframe src="http://bb-btns.bitbucket.org/bitbucket-btn.html?user=mdo&repo=bb-btns.bitbucket.org&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
-
 En este respositorio se encuentran distintos laboratorios para ejecutar sobre Docker o Vagrant.
 
 ## Docker:
